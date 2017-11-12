@@ -1,0 +1,3 @@
+# Basic_Scala_data_structure
+Exploring Scala Functional Programming
+自己对每个数据结构以及基础算法的，从底层实现的理解
