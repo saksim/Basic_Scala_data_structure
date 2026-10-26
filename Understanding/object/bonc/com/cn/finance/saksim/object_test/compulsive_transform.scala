@@ -36,6 +36,6 @@ object compulsive_transform {
     x.printclass(1,2,3,4)
     x.printclass("mother")
     x.printclass2("mother")
-    x.printclass3(123,421,"WEiweiHE",0x124)
+    x.printclass3(123,421,"example",0x124)
   }
 }

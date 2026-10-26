@@ -66,13 +66,13 @@ object chain_method {
   def main(args: Array[String]): Unit = {
     val employee = new chain_Employee
     employee.setnation("UK")
-        .setname("WeiWeiHE")
+        .setname("example")
         .setRole("Hadoop Developer")
       println(employee)
 
     val ww = new chain_2
     ww.setage(200)
-      .setname("WeiWeiHE")
+      .setname("example")
       .addtop("Recommendation System")
       .addtop("Prince_compony")
       .addtop("Post-loan prediction of Mini-Company")
