@@ -18,8 +18,8 @@ object change_params {
   def main(args: Array[String]): Unit = {
     val x= new change_params
     x.printall()
-    x.printall("wh13624")
-    x.printall("wh13624","Climate Change Science and Policy")
+    x.printall("sample_user")
+    x.printall("sample_user","Example topic")
 
     /*使用_*适配一个序列，使其做诶变参传给一个方法*/
     val y = List("apple","banana","cherry")

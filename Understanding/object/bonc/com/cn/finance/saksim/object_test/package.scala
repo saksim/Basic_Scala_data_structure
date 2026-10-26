@@ -4,10 +4,10 @@
 惯例约定：
 （1）将代码放在package.scala的文件中
 （2）再将文件放在想要共享的类的同级目录中。
-	举例：若想让代码对com.heweiwei.myapp.model所有类可见
-	则创建package.scala文件，并将其放置于com/heweiwei/myapp/model的目录里
+	举例：若想让代码对com.example.myapp.model所有类可见
+	则创建package.scala文件，并将其放置于com/example/myapp/model的目录里
 	并删除model，再以model声明为包对象的名字
-    package com.heweiwei.myapp
+    package com.example.myapp
     package object model {
     }
 */

@@ -8,7 +8,7 @@ private字段： scala防止生成getter和setter方法
 
 //对于VAR字段
 class Person(var name:String)
-val p = new Person("HEWEIWEI")
+val p = new Person("Sample Person")
 //getter
 p.name
 //setter
@@ -16,7 +16,7 @@ p.name = "Sucker"
 
 //对于VAL字段
 class Person(val name:String)
-val p = new Person("WeiWeiHE")
+val p = new Person("Example Person")
 //getter
 p.name
 
@@ -27,7 +27,7 @@ val p = new Person("Saksim")
 
 //PRIVATE
 class Person(private var name:String) {def getName {println(name)}}
-val p = new Person("WeiWeiHE")
+val p = new Person("Example Person")
 p.name
 //p.name是不允许的
 p.getName
